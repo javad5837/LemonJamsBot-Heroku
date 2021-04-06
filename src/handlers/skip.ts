@@ -8,6 +8,6 @@ export const skipHandler = Composer.command('skip', ctx => {
         return;
     }
 
-    const skipped = skip(chat.id);
+    const skpped = skip(chat.id);
     ctx.reply(ss ? 'تموم شد' : "There's no song playing.");
 });
